@@ -10,7 +10,7 @@ set(VCPKG_CMAKE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake")
 if (EXISTS ${VCPKG_CMAKE})
   set(CMAKE_TOOLCHAIN_FILE ${VCPKG_CMAKE}
       CACHE STRING "TEST")
-  set(VCPKG_TARGET_TRIPLET "x64-${THREADX_ARCH}"
+  set(VCPKG_TARGET_TRIPLET "x86-${THREADX_ARCH}"
       CACHE STRING "default vcpkg triplet")
 endif ()
 
