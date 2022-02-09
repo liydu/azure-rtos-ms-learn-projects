@@ -53,7 +53,31 @@
                 },
                 {
                     "label": "02",
+                    "value": "ProjectAnalyze"
+                },
+                {
+                    "label": "03",
+                    "value": "ProjectBreakSuspension"
+                },
+                {
+                    "label": "04",
+                    "value": "ProjectProducerConsumer"
+                },
+                {
+                    "label": "05",
                     "value": "ProjectEventFlags"
+                },
+                {
+                    "label": "06",
+                    "value": "ProjectMessageQueues"
+                },
+                {
+                    "label": "07",
+                    "value": "ProjectEventChaining"
+                },
+                {
+                    "label": "08",
+                    "value": "ProjectPriorityInversion"
                 }
             ],
             "default": "ProjectHelloWorld"
